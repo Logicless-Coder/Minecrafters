@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.SideNav {
+  width: 200px;
+  height: auto;
+  font-size: 20px;
+  /* background-color: violet; */
+  color: slategray;
+  /* border: 2px orangered solid; */
+  background-image: url("./../images/book-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px;
+  margin-top: 50px;
+  animation: leftPop 2s ease-in-out 1;
+  animation-direction: normal;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px;
+  font-family: Minecraft;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes leftPop {
+  0% {
+    left: -200px;
+  }
+  33% {
+    left: 50px;
+  }
+  66% {
+    left: -25px;
+  }
+  100% {
+    left: 0px;
+  }
+}

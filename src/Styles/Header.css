@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Header {
+  background-image: url("https://i.imgur.com/u9B9Lc8.jpg");
+  animation: backgroundScroll 40s linear infinite;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+@keyframes backgroundScroll {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+#logo {
+  width: auto;
+  margin: auto;
+  height: 100px;
+  line-height: 100px;
+  z-index: 1;
+}
