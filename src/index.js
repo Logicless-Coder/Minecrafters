@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import "./fonts/Minecraft.ttf";
-// import { Route, Link } from "react-router";
+// import { Router, Route, Link } from "react-router";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 // import { BrowserRouter } from "react-router-dom";
 
