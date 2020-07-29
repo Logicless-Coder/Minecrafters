@@ -2,7 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
+
+// Fonts
 import "./fonts/Minecraft.ttf";
+import "./fonts/Minecrafter.Reg.ttf";
+import "./fonts/Minecrafter.Alt.ttf";
+
+// Router
 // import { Router, Route, Link } from "react-router";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 // import { BrowserRouter } from "react-router-dom";

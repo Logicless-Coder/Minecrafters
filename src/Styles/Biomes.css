@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.biomes-main {
+  background-color: #80c71f;
+  width: 100%;
+  height: 100%;
+}
+
+#title {
+  padding: 20px;
+  font-family: Minecrafter;
+  font-size: 4.5rem;
+  color: #1d1c21;
+  line-height: 80px;
+  height: 80px;
+  text-align: center;
+  letter-spacing: 12px;
+}
+
+.main {
+  margin: 0;
+  width: 75%;
+  margin: auto;
+  border: 4px #5d7c15 solid;
+  padding: 20px;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.section {
+  padding-bottom: 20px;
+  margin: 20px 0px;
+  border-bottom: 1.5px solid #263308;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: #3c500d;
+  letter-spacing: 2px;
+}
+
+.section-image {
+  display: block;
+  margin: 20px;
+  box-shadow: #5d7c15 10px 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 264px;
+}
